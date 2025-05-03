@@ -9,35 +9,35 @@ Ce projet est une application web pour la gestion de livres, composé d'un backe
 
 ## Structure 
  gestion-livre-edacy/
- |----- gestionLivre/ # code sources backend
- |----- gestionLivreFront/ # code source du frontend 
+ - |----- gestionLivre/ # code sources backend
+ - |----- gestionLivreFront/ # code source du frontend 
 
- ### Prérequis:
+ ## Prérequis:
  - java 17 +
  - Node.js + Angular CLI
  - Maven
- ### lancement du backend:
+ ## lancement du backend:
 
- cd gestionLivre
- mvn clean
- mvn install
- mvn spring-boot:run
+ - cd gestionLivre
+ - mvn clean
+ - mvn install
+ - mvn spring-boot:run
 
- L'API sera accessible sur : http://localhost:8080
+ - L'API sera accessible sur : http://localhost:8080
 
- ### lancement du frontend:
+ ## lancement du frontend:
 
- cd gestionLivreFront
- npm install
- npm start 
+ - cd gestionLivreFront
+ - npm install
+ - npm start 
 
- l'application sera accessible sur : http://localhost: 4200
+ - l'application sera accessible sur : http://localhost:4200
 
- ### Fonctionalités:
- # Connexion avec JWT
- CRUD des livres 
- interface 
+ ## Fonctionalités:
+ - Connexion avec JWT
+ - CRUD des livres 
+ - interface 
 
- # Remarque: 
+ ## Remarque: 
  authentification via JWT pensez à utiliser le token dans le header pour accéder aux routes.
 
